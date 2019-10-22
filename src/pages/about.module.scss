@@ -1,0 +1,41 @@
+.container {
+
+    h2 {
+        margin: 0;
+        margin-bottom: .8em;
+    }
+    
+    a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #F5B31E;
+    }
+
+    p {
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 1rem;
+    }
+
+    span {
+        display: inline;
+        color: #F5B31E;
+        font-size: inherit;
+    }
+
+    ul {
+        padding: 0;
+        padding-left: 1em;
+        margin: 0;
+        margin-bottom: 4rem;
+        border-left: 3px solid #F5B31E;
+
+
+        li {
+            list-style: none;
+            line-height: 1.9
+        }
+    }
+}

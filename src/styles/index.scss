@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+::selection {
+  background-color: #F5D17F;
+}
+
+#___gatsby {
+  height: 100%;
+
+  div:first-child {
+    height: 100%;
+  }
+}
