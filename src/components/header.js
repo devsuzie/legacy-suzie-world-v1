@@ -32,7 +32,7 @@ class Toggle extends React.Component {
                 <Link className={headerStyles.mobileItem} activeClassName={headerStyles.activeMobileItem} to="/blog">BLOG</Link>
             </li>
             <li>
-                <Link className={headerStyles.mobileItem} activeClassName={headerStyles.activeMobileItem} to="/about">ABOUT</Link>
+                <Link className={headerStyles.mobileItem} activeClassName={headerStyles.activeMobileItem} to="/resume">RESUME</Link>
             </li>
         </ul>
       </div>
@@ -59,7 +59,7 @@ const Header = () => {
                         <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">BLOG</Link>
                     </li>
                     <li>
-                        <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">ABOUT</Link>
+                        <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/resume">RESUME</Link>
                     </li>
                 </ul>
             </nav>

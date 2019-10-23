@@ -1,22 +1,35 @@
 .container {
 
+    .name{
+        line-height: 2em;
+    }
+
     h2 {
+        color: #F5B31E;
         margin: 0;
-        margin-bottom: .8em;
+        margin-bottom: .5em;
     }
     
     a {
         color: #333;
-        text-decoration: none;
+        text-decoration: 1px solid #333;
+    }
+
+    p {
+        color: #333;
+        line-height: 1.6em;
+        margin-bottom: 4em;
+    }
+
+    .small{
+        margin-bottom: 2em;
+    }
+    .big{
+        margin-bottom: 6em;
     }
 
     a:hover {
         color: #F5B31E;
-    }
-
-    p {
-        font-family: 'Noto Sans', sans-serif;
-        line-height: 1rem;
     }
 
     span {
@@ -29,13 +42,18 @@
         padding: 0;
         padding-left: 1em;
         margin: 0;
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
         border-left: 3px solid #F5B31E;
 
 
         li {
             list-style: none;
-            line-height: 1.9
+            line-height: 1.6em
         }
+    }
+
+    hr{
+        border: none;
+        padding: 2em 0;
     }
 }
