@@ -67,7 +67,7 @@ const AboutPage = () => {
 
                 <h2>Work Experience (2019.01 ~ 04)</h2>
                 <p>
-                    마크업 개발자로써 디자이너 한분, 개발자 두분과 함께 외주 작업을 했습니다.
+                    마크업 엔지니어로써 디자이너 한분, 개발자 두분과 함께 외주 작업을 했습니다.
                     이 기간동안 배운것은 HTML, CSS를 안다고 생각했지만 사실은 아니였다는 점입니다.
                     어떻게 시맨틱 마크업을 해야 개발자가 더 편하게 작업할 수 있을지에 대한 고민,
                     크로스 브라우징 문제 그리고 클래스는 어떻게 관리해야하는지에 대한 고민을 했습니다.
@@ -116,7 +116,7 @@ const AboutPage = () => {
                 <ul>
                     <li>e-mail: <a href="mailto:thanks.suzie@gmail.com">thanks.suzie@gmail.com</a></li>
                     <li><a href="https://github.com/iamsuzie" target="_blank">Github</a></li>
-                    <li>Tell: +82-10-8977-9980</li>
+                    <li><a href="https://www.linkedin.com/in/codesuzie/" target="_blank">Linked In</a></li>
                 </ul>
             </div>
         </Layout>
