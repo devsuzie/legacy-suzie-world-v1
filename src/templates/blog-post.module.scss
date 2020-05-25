@@ -14,7 +14,7 @@ h3 {
 }
 
 p {
-    line-height: 1.8;
+    line-height: 1.6em;
     margin: 0 0 1.5rem 0;
     word-break: keep-all;
     overflow-wrap: break-word;
@@ -74,3 +74,8 @@ button:hover {
     text-decoration: #999999 underline;
 }
 
+ul {
+  li {
+    margin-bottom: 10px;
+  }
+}
