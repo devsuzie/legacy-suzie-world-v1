@@ -74,7 +74,22 @@ button:hover {
     text-decoration: #999999 underline;
 }
 
-ul, ol {
+ul {
+  li {
+    margin-bottom: 10px;
+
+    p {
+      margin-bottom: 5px;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+  }
+}
+
+ol {
   li {
     margin-bottom: 10px;
   }
