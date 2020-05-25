@@ -9,7 +9,7 @@ h2 {
 }
 
 h3 {
-    margin: 1rem 0;
+    margin: 1.5em 0 .5em 0;
     font-size: 1.1rem;
 }
 
@@ -74,7 +74,7 @@ button:hover {
     text-decoration: #999999 underline;
 }
 
-ul {
+ul, ol {
   li {
     margin-bottom: 10px;
   }
