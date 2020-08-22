@@ -22,6 +22,9 @@ const IndexPage = () => {
 
                 <ul>
                     <li>
+                        <a href="https://project.suzie.world/this-music.html">TODO APP</a>
+                    </li>
+                    <li>
                         <a href="https://project.suzie.world/todo-app.html">TODO APP</a>
                     </li>
                     <li>

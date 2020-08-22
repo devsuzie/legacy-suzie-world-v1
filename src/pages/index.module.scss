@@ -141,6 +141,21 @@ body {
         }
 
         &:first-of-type {
+            background-color: #DED0D0;
+            position: relative;
+
+            a{
+                background: url(../posts/gatsby/this-music@2x.png) 50% 25px no-repeat;
+                background-size: 90%;
+
+                &:hover {
+                    background-size: 95%;
+                    transition: .4s;
+                }
+            }
+        }
+
+        &:nth-of-type(2) {
             background-color: #E5EEFD;
             position: relative;
 
@@ -155,7 +170,7 @@ body {
             }
         }
 
-        &:nth-of-type(2) {
+        &:nth-of-type(3) {
             background-color: #2E2E2E;
 
             a{
@@ -169,7 +184,7 @@ body {
             }
         }
 
-        &:nth-of-type(3) {
+        &:nth-of-type(4) {
             background-color: #EDEDED;
 
             a{
