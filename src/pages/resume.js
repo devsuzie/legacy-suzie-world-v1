@@ -21,80 +21,108 @@ const AboutPage = () => {
                 </p>
 
                 <h2>Personal Project (2019.05~)</h2>
-                <p>
-                    바닐라 자바스크립로 개발하는것을 좋아합니다.
-                    이유나 목적이 없는 코드를 작성하지 않기 위해 노력합니다.
+                <p className={aboutStyles.small}>
+                    프로그래밍을 시작하게 된 이유도 만들고 싶은 것을 만들고 싶어서였습니다. 만들고자 하는 것의 완성된 모습은 계속해서 그리되, 처음부터 모든 기능을 구현하고자 하지 않았습니다.
+                    아래 목록에서 확인하실 수 있는 개인 프로젝트들은 모두 버전1의 모습이라고 할 수 있습니다. 각 프로젝트의 자세한 내용은 홈 화면에서도 확인하실 수 있습니다.
                 </p>
 
-                <h3>Todo App</h3>
                 <ul>
-                    <li>완료한 항목 기반의 그래프가 있는 투두 리스트 앱 개발</li>
-                    <li>반응형 웹 디자인</li>
-                    <li>Vanilla JS, CSS, HTML</li>
-                    <li>자세한 내용은 <a href="https://project.suzie.world/todo-app.html" target="_blank">이곳</a>에서 확인 할 수 있습니다.</li>
-                </ul>
-
-                <h3>Notes App</h3>
-                <ul>
-                    <li>달력, 정렬과 검색 기능이 있는 노트 앱 개발</li>
-                    <li>반응형 웹 디자인</li>
-                    <li>Vanilla JS, CSS, HTML</li>
-                    <li>자세한 내용은 <a href="https://project.suzie.world/notes-app.html" target="_blank">이곳</a>에서 확인 할 수 있습니다.</li>
-                </ul>
-
-                <h3>Timer App</h3>
-                <ul>
-                    <li>시간을 기록하고 총 누적된 시간 값을 알 수 있는 타이머 앱</li>
-                    <li>Vanilla JS, Sass, HTML</li>
-                    <li>자세한 내용은 <a href="https://project.suzie.world/timer-app.html" target="_blank">이곳</a>에서 확인 할 수 있습니다.</li>
-                </ul>
-
-                <h3>Weather App</h3>
-                <ul>
-                    <li>검색어 기반으로 지역, 날씨, 시간 정보를 보여주는 날씨 앱</li>
-                    <li>Node JS, Vanilla JS, CSS, HTML</li>
-                    <li>자세한 내용은 <a href="https://project.suzie.world/weather-app.html" target="_blank">이곳</a>에서 확인 할 수 있습니다.</li>
-                </ul>
-
-                <h3>suzie.world</h3>
-                <ul>
-                    <li>포트폴리오와 블로그 용도의 개인 웹페이지 제작</li>
-                    <li>Gatsby로 사이트 생성, Netlify로 배포, Contentful로 블로그 글 작성</li>
-                    <li>React, GraphQL, Sass</li>
+                    <li>좋아하는 음악을 일기처럼 기록할 수 있는 <a href="https://project.suzie.world/this-music.html" target="_blank">this.music</a></li>
+                    <li>해야 할 일을 얼마나 했는지 그래프로 확인할 수 있는 <a href="https://project.suzie.world/todo-app.html" target="_blank">TODO 앱</a></li>
+                    <li>검색과 정렬 기능이 있는 <a href="https://project.suzie.world/notes-app.html" target="_blank">노트테이킹 앱</a></li>
+                    <li>오늘 총 집중한 시간이 얼마인지 확인할 수 있는 <a href="https://project.suzie.world/timer-app.html" target="_blank">타이머 앱</a></li>
+                    <li>전세계 도시의 날씨와 시간을 확인할 수 있는 <a href="https://project.suzie.world/weather-app.html" target="_blank">날씨 앱</a></li>
                 </ul>
 
                 <hr />
 
-                <h2>Work Experience (2019.01 ~ 04)</h2>
-                <p>
-                    마크업 엔지니어로서 디자이너 한분, 개발자 두분과 함께 외주 작업을 했습니다.
-                    이 기간동안 배운것은 HTML, CSS를 안다고 생각했지만 사실은 아니였다는 점입니다.
-                    어떻게 시맨틱 마크업을 해야 개발자가 더 편하게 작업할 수 있을지에 대한 고민,
-                    크로스 브라우징 문제 그리고 클래스는 어떻게 관리해야하는지에 대한 고민을 했습니다.
-                </p>
+                <div className={aboutStyles.work}>
+                    <h2>Work Experience (2020. 03 ~ 현재)</h2>
 
-                <h3>제주항공 X BOTDARI (보따리) 베트남 여행플래닝 서비스</h3>
-                <ul>
-                    <li>반응형 웹 페이지 마크업 개발 </li>
-                    <li>현재는 해당 서비스가 종료되어 아래에 개발한 페이지들을 링크했습니다.</li>
-                    <li><a href="http://study.baramilda.com/jeju/reservation_main.html" target="_blank">예약 상품 메인</a> | <a href="http://study.baramilda.com/jeju/reservation_tour_list.html" target="_blank">투어 예약 리스트</a> | <a href="http://study.baramilda.com/jeju/reservation_tour_view.html" target="_blank">투어 예약 상세</a> | <a href="http://study.baramilda.com/jeju/mypage.html" target="_blank">마이 페이지</a> | <a href="http://study.baramilda.com/jeju/mypage_reservation.html" target="_blank">예약 문의</a></li>
-                </ul>
+                    <p className={aboutStyles.link}>
+                        기업전용 배송 기업인 <a href="http://chainlogis.com/" target="_blank">체인로지스</a>에서 2020년 3월부터 일하고 있습니다.<br />
+                        진행했던 프로젝트는 아래에서 확인하실 수 있습니다.
+                    </p>
 
-                <h3>유네스코 아태무형 유산센터 사업 성과물 웹 페이지</h3>
-                <ul>
-                    <li>웹 페이지 디자인 및 마크업 개발</li>
-                    <li>개발한 웹 페이지: <a href="http://www.ichcap.org/kor/ek/sub_main_audiovisual.html" target="_blank">아태지역 무형유산 시청각자료</a> | <a href="http://www.ichcap.org/kor/ek/sub_main_videophoto.html" target="_blank">무형유산 온라인 전시</a> | <a href="http://www.ichcap.org/kor/ek/sub_main_prbook.html" target="_blank">국가별 무형유산 도서 시리즈</a></li>
-                </ul>
+                    <h3>두발히어로 웹 페이지 (택배 서비스)</h3>
+                    <span>2020.03 - 2020.04</span>
 
-                <h3>한국 경영원 웹 페이지</h3>
-                <ul>
-                    <li>반응형 웹 페이지 마크업 개발</li>
-                    <li>해당 페이지: <a href="https://www.edupoll.net" target="_blank">한국 경영원</a></li>
-                </ul>
+                    <h4>설명</h4>
+                    <ul>
+                        <li>택배 서비스를 신청한 사용자가 <a href="https://check.doobalhero.kr/" target="_blank">배송 조회</a>와 <a href="https://return.doobalhero.kr/" target="_blank">반품 신청</a>을 할 수 있는 페이지의 클라이언트 작업을 했습니다. 데스크탑 버전으로 구현되어있던 <a href="https://rider.doobalhero.kr/" target="_blank">라이더 모집 페이지</a>는 CSS 반응형 작업을 진행했습니다.</li>
+                    </ul>
+                    <h4>역할</h4>
+                    <ul>
+                        <li>브랜치와 이슈 관리를 통해 Git으로 협업하는 방법을 배웠습니다.</li>
+                        <li>Hooks를 이용한 함수형 프로그래밍을 경험했습니다.</li>
+                        <li>반복되는 컴포넌트를 추출하여 재사용하였습니다.</li>
+                        <li>비즈니스 로직과 뷰를 분리하여 역할을 나누었습니다.</li>
+                        <li>flex를 이용해 반응형 페이지 구현했습니다.</li>
+                    </ul>
+                    <h4>기술</h4>
+                    <ul>
+                        <li>React Context & Hooks, emotion, styled component</li>
+                        <li>사용한 라이브러리: axios</li>
+                    </ul>
+
+                    <h3>두발히어로 어드민 사이트</h3>
+                    <span>2020.04 - 현재</span>
+                    <h4>설명</h4>
+                    <ul>
+                        <li>체인로지스의 택배서비스인 두발히어로 어드민 사이트 작업을 진행했습니다.</li>
+                    </ul>
+                    <h4>역할</h4>
+                    <ul>
+                        <li>포스트맨을 이용해 API를 테스트하는 방법을 배웠습니다.</li>
+                        <li>HTTP API 클라이언트 작업을 진행하였습니다.</li>
+                        <li>적절한 폴더링에 대한 고민을 했습니다.</li>
+                        <li>컨텍스트와 훅스로 스토어를 디자인해 global state와 action을 사용하였습니다.</li>
+                        <li>firebase에서 받아온 실시간 데이터를 지도에 나타내는 작업을 했습니다.</li>
+                        <li>에러 처리를 작업했습니다.</li>
+                        <li>라이브러리를 깊게 사용하기 위해 문서를 더 잘 읽는 방법에 대해 고민했습니다.</li>
+                    </ul>
+                    <h4>기술</h4>
+                    <ul>
+                        <li>React Context & Hooks, React-Router, emotion</li>
+                        <li>사용한 라이브러리: react-hook-form, react-table, react-dropzone</li>
+                    </ul>
+
+                    <h3>바로택배앱 어드민 사이트</h3>
+                    <span>2020.04 - 현재</span>
+                    <h4>설명</h4>
+                    <ul>
+                        <li>배송신청 서비스인 바로택배앱 어드민 사이트 작업을 진행했습니다. 프론트엔드 부분을 혼자 맡아 작업하고 있습니다.</li>
+                    </ul>
+                    <h4>역할</h4>
+                    <ul>
+                        <li>로그인을 위한 쿠키 설정에 대해 공부할 수 있었습니다.</li>
+                        <li>CORS 에러를 해결한 경험이 있습니다.</li>
+                        <li>성능 최적화를 위해 React.memo와 useCallback훅을 적절하게 사용했습니다.</li>
+                        <li>받아오는 데이터양에 따라 로딩 스토어를 적용하였습니다.</li>
+                        <li>라디오, 체크박스, 날짜, 파일 등 다양한 input type을 이용한 조회 폼을 구현했습니다.</li>
+                        <li>서버에서 받아온 데이터를 클라이언트에서 원하는 모양대로 변형하여 작업하였습니다.</li>
+                        <li>타입스크립트를 도입하여 프로젝트를 진행하며 높아진 생산성을 경험했습니다.</li>
+                    </ul>
+                    <h4>기술</h4>
+                    <ul>
+                        <li>Typescript, React Context & Hooks, emotion</li>
+                        <li>사용한 라이브러리: React-hook-form, react-table, react-dropzone, ky</li>
+                    </ul>
+                </div>
 
                 <hr />
 
                 <h2>Other Experience </h2>
+                <p className={aboutStyles.small}>
+                    좋은 기회를 통해 4개월 정도 마크업 엔지니어로서 아르바이트한 경험이 있습니다. 이 기간 동안 배운 것은 HTML, CSS를 안다고 생각했지만, 사실은 아니었다는 점입니다. 어떻게 시맨틱 마크업을 해야 개발자가 더 편하게 작업할 수 있을지에 대한 고민, 크로스 브라우징 문제 그리고 클래스는 어떻게 관리해야 하는지에 대한 고민을 할 수 있었습니다. 진행한 프로젝트는 아래 목록에서 확인하실 수 있습니다.
+                </p>
+
+                <ul>
+                    <li>제주항공 X BOTDARI 여행플래닝 서비스</li>
+                    <li>유네스코 아태무형 유산센터 사업 성과물 웹 페이지</li>
+                    <li>한국 경영원 웹 페이지</li>
+                </ul>ㅂ
+
                 <p className={aboutStyles.small}>
                     블로그를 운영중입니다.
                     기술 발전이 빠른 이유에는 무엇이든 공개하고, 공유하는 문화에 있다고 생각합니다.
@@ -114,9 +142,8 @@ const AboutPage = () => {
                 <h2>Contact</h2>
 
                 <ul>
-                    <li>e-mail: <a href="mailto:thanks.suzie@gmail.com">thanks.suzie@gmail.com</a></li>
+                    <li><a href="mailto:thanks.suzie@gmail.com">thanks.suzie@gmail.com</a></li>
                     <li><a href="https://github.com/iamsuzie" target="_blank">Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/codesuzie/" target="_blank">Linked In</a></li>
                 </ul>
             </div>
         </Layout>
