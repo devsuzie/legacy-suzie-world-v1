@@ -121,7 +121,7 @@ const AboutPage = () => {
                     <li>제주항공 X BOTDARI 여행플래닝 서비스</li>
                     <li>유네스코 아태무형 유산센터 사업 성과물 웹 페이지</li>
                     <li>한국 경영원 웹 페이지</li>
-                </ul>ㅂ
+                </ul>
 
                 <p className={aboutStyles.small}>
                     블로그를 운영중입니다.
