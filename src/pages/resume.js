@@ -28,10 +28,10 @@ const AboutPage = () => {
 
                 <ul>
                     <li>좋아하는 음악을 일기처럼 기록할 수 있는 <a href="https://project.suzie.world/this-music.html" target="_blank">this.music</a></li>
-                    <li>해야 할 일을 얼마나 했는지 그래프로 확인할 수 있는 <a href="https://project.suzie.world/todo-app.html" target="_blank">TODO 앱</a></li>
-                    <li>검색과 정렬 기능이 있는 <a href="https://project.suzie.world/notes-app.html" target="_blank">노트테이킹 앱</a></li>
+                    <li>완료한 항목 기반의 그래프가 있는 <a href="https://project.suzie.world/todo-app.html" target="_blank"> 투두 리스트 앱</a>개발</li>
+                    <li>검색과 정렬 기능과 캘린더가 있는 <a href="https://project.suzie.world/notes-app.html" target="_blank">노트테이킹 앱</a></li>
                     <li>오늘 총 집중한 시간이 얼마인지 확인할 수 있는 <a href="https://project.suzie.world/timer-app.html" target="_blank">타이머 앱</a></li>
-                    <li>전세계 도시의 날씨와 시간을 확인할 수 있는 <a href="https://project.suzie.world/weather-app.html" target="_blank">날씨 앱</a></li>
+                    <li>검색어 기반으로 지역, 날씨, 시간 정보를 보여주는 <a href="https://project.suzie.world/weather-app.html" target="_blank">날씨 앱</a></li>
                 </ul>
 
                 <hr />
