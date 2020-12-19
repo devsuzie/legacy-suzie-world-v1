@@ -114,11 +114,8 @@ const AboutPage = () => {
                 반품 신청
               </a>
               을 할 수 있는 페이지의 클라이언트 작업을 했습니다. 데스크탑
-              버전으로 구현되어있던{" "}
-              <a href="https://rider.doobalhero.kr/" target="_blank">
-                라이더 모집 페이지
-              </a>
-              는 CSS 반응형 작업을 진행했습니다.
+              버전으로 구현되어있던 라이더 모집 페이지는 CSS 반응형 작업을
+              진행했습니다.
             </li>
           </ul>
           <h4>역할</h4>
@@ -243,7 +240,7 @@ const AboutPage = () => {
 
         <ul>
           <li>
-            <a href="https://www.suzie.world/blog" target="_blank">
+            <a href="https://suzie.netlify.app/blog" target="_blank">
               suzie.world 블로그
             </a>
           </li>
@@ -251,7 +248,7 @@ const AboutPage = () => {
           <li>
             JSConf Korea 2019{" "}
             <a
-              href="https://www.suzie.world/blog/jsconf-korea-2019"
+              href="https://suzie.netlify.app/blog/jsconf-korea-2019"
               target="_blank"
             >
               (후기글)
