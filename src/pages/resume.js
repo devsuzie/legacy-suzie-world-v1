@@ -38,7 +38,7 @@ const AboutPage = () => {
           <li>
             좋아하는 음악을 일기처럼 기록할 수 있는{" "}
             <a
-              href="https://suzie-project.netlify.app/this-music.html"
+              href="https://project.suzie.world/this-music.html"
               target="_blank"
             >
               this.music
@@ -46,10 +46,7 @@ const AboutPage = () => {
           </li>
           <li>
             완료한 항목 기반의 그래프가 있는{" "}
-            <a
-              href="https://suzie-project.netlify.app/todo-app.html"
-              target="_blank"
-            >
+            <a href="https://project.suzie.world/todo-app.html" target="_blank">
               {" "}
               투두 리스트 앱
             </a>
@@ -58,7 +55,7 @@ const AboutPage = () => {
           <li>
             검색과 정렬 기능과 캘린더가 있는{" "}
             <a
-              href="https://suzie-project.netlify.app/notes-app.html"
+              href="https://project.suzie.world/notes-app.html"
               target="_blank"
             >
               노트테이킹 앱
@@ -67,7 +64,7 @@ const AboutPage = () => {
           <li>
             오늘 총 집중한 시간이 얼마인지 확인할 수 있는{" "}
             <a
-              href="https://suzie-project.netlify.app/timer-app.html"
+              href="https://project.suzie.world/timer-app.html"
               target="_blank"
             >
               타이머 앱
@@ -76,7 +73,7 @@ const AboutPage = () => {
           <li>
             검색어 기반으로 지역, 날씨, 시간 정보를 보여주는{" "}
             <a
-              href="https://suzie-project.netlify.app/weather-app.html"
+              href="https://project.suzie.world/weather-app.html"
               target="_blank"
             >
               날씨 앱
@@ -240,7 +237,7 @@ const AboutPage = () => {
 
         <ul>
           <li>
-            <a href="https://suzie.netlify.app/blog" target="_blank">
+            <a href="https://www.suzie.world/blog" target="_blank">
               suzie.world 블로그
             </a>
           </li>
@@ -248,7 +245,7 @@ const AboutPage = () => {
           <li>
             JSConf Korea 2019{" "}
             <a
-              href="https://suzie.netlify.app/blog/jsconf-korea-2019"
+              href="https://www.suzie.world/blog/jsconf-korea-2019"
               target="_blank"
             >
               (후기글)

@@ -22,27 +22,19 @@ const IndexPage = () => {
 
         <ul>
           <li>
-            <a href="https://suzie-project.netlify.app/this-music.html">
-              TODO APP
-            </a>
+            <a href="https://project.suzie.world/this-music.html">MUSIC APP</a>
           </li>
           <li>
-            <a href="https://suzie-project.netlify.app/todo-app.html">
-              TODO APP
-            </a>
+            <a href="https://project.suzie.world/todo-app.html">TODO APP</a>
           </li>
           <li>
-            <a href="https://suzie-project.netlify.app/notes-app.html">
-              NOTES APP
-            </a>
+            <a href="https://project.suzie.world/notes-app.html">NOTES APP</a>
           </li>
           <li>
-            <a href="https://suzie-project.netlify.app/timer-app.html">
-              TIMER APP
-            </a>
+            <a href="https://project.suzie.world/timer-app.html">TIMER APP</a>
           </li>
           <li>
-            <a href="https://suzie-project.netlify.app/weather-app.html">
+            <a href="https://project.suzie.world/weather-app.html">
               WEATHER APP
             </a>
           </li>
