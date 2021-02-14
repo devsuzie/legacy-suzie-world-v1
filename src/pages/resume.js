@@ -24,7 +24,7 @@ const AboutPage = () => {
           새로운것을 배우고 받아들이는것을 늘 환영합니다.
         </p>
 
-        <h2>Personal Project (2019.05~)</h2>
+        <h2>Personal Project</h2>
         <p className={aboutStyles.small}>
           프로그래밍을 시작하게 된 이유도 만들고 싶은 것을 만들고
           싶어서였습니다. 만들고자 하는 것의 완성된 모습은 계속해서 그리되,
@@ -84,19 +84,114 @@ const AboutPage = () => {
         <hr />
 
         <div className={aboutStyles.work}>
-          <h2>Work Experience (2020. 03 ~ 현재)</h2>
+          <h2>Work Experience</h2>
+
+          <h2 className={aboutStyles.highlight}>뱅크샐러드</h2>
+
+          <p className={aboutStyles.link}>
+            데이터 기반 내 돈 관리 서비스{" "}
+            <a href="https://career.banksalad.com/" target="_blank">
+              뱅크샐러드
+            </a>
+            에서 2020년 10월부터 일하고 있습니다.
+          </p>
+
+          <h3>송금 신규피처 및 백오피스 개발</h3>
+          <span>2020.10 - 현재</span>
+          <h4>설명</h4>
+          <ul>
+            <li>
+              뱅크샐러드의 송금팀에서 신규피처 및 백오피스 웹 개발을 하고
+              있습니다.
+            </li>
+          </ul>
+          <h4>역할</h4>
+          <ul>
+            <li>신규 피처 개발을 위해 프론트엔드 기술환경 세팅을 했습니다.</li>
+            <li>
+              제너레이터 기반의 미들웨어{" "}
+              <a href="https://redux-saga.js.org/" target="_blank">
+                Reux-Saga
+              </a>
+              를 이용하여 비동기 처리를 관리합니다.
+            </li>
+            <li>
+              <a
+                href="https://developers.google.com/protocol-buffers"
+                target="_blank"
+              >
+                Protocol Buffers
+              </a>
+              로 개발된 IDL을 읽고 클라이언트 작업을 할 수 있습니다.
+            </li>
+            <li>
+              <a href="https://testing-library.com/" target="_blank">
+                testing-library
+              </a>
+              와{" "}
+              <a href="https://mswjs.io/" target="_blank">
+                msw
+              </a>
+              를 사용하여 통합 테스트를 진행합니다.
+            </li>
+          </ul>
+          <h4>기술</h4>
+          <ul>
+            <li>TypeScript, React, Redux, redux-saga, redux-toolkit</li>
+            <li>테스트 코드: Jest, testing-library, msw</li>
+          </ul>
+
+          <hr />
+
+          <h2 className={aboutStyles.highlight}>체인로지스</h2>
 
           <p className={aboutStyles.link}>
             기업전용 배송 기업인{" "}
             <a href="http://chainlogis.com/" target="_blank">
               체인로지스
             </a>
-            에서 2020년 3월부터 일하고 있습니다.
+            에서 2020년 3월부터 2020년 9월까지 일했습니다.
             <br />
             진행했던 프로젝트는 아래에서 확인하실 수 있습니다.
           </p>
 
-          <h3>두발히어로 웹 페이지 (택배 서비스)</h3>
+          <h3>두발히어로, 바로택배 백오피스</h3>
+          <span>2020.04 - 2020.09</span>
+          <h4>설명</h4>
+          <ul>
+            <li>
+              체인로지스의 택배서비스인 두발히어로와 배송신청 서비스인
+              바로택배의 백오피스를 개발했습니다.
+            </li>
+          </ul>
+          <h4>역할</h4>
+          <ul>
+            <li>포스트맨을 이용해 API를 테스트하는 방법을 배웠습니다.</li>
+            <li>HTTP API 클라이언트 작업을 진행하였습니다.</li>
+            <li>적절한 폴더링에 대한 고민을 했습니다.</li>
+            <li>로그인을 위한 쿠키 설정에 대해 공부할 수 있었습니다.</li>
+            <li>
+              firebase에서 받아온 실시간 데이터를 지도에 나타내는 작업을
+              했습니다.
+            </li>
+            <li>
+              성능 최적화를 위해 React.memo와 useCallback훅을 적절하게
+              사용했습니다.
+            </li>
+            <li>
+              라이브러리를 깊게 사용하기 위해 문서를 더 잘 읽는 방법에 대해
+              고민했습니다.
+            </li>
+          </ul>
+          <h4>기술</h4>
+          <ul>
+            <li>Typescript, React Context & Hooks, emotion</li>
+            <li>
+              사용한 라이브러리: react-hook-form, react-table, react-dropzone
+            </li>
+          </ul>
+
+          <h3>두발히어로 웹 페이지</h3>
           <span>2020.03 - 2020.04</span>
 
           <h4>설명</h4>
@@ -129,82 +224,6 @@ const AboutPage = () => {
           <ul>
             <li>React Context & Hooks, emotion, styled component</li>
             <li>사용한 라이브러리: axios</li>
-          </ul>
-
-          <h3>두발히어로 어드민 사이트</h3>
-          <span>2020.04 - 현재</span>
-          <h4>설명</h4>
-          <ul>
-            <li>
-              체인로지스의 택배서비스인 두발히어로 어드민 사이트 작업을
-              진행했습니다.
-            </li>
-          </ul>
-          <h4>역할</h4>
-          <ul>
-            <li>포스트맨을 이용해 API를 테스트하는 방법을 배웠습니다.</li>
-            <li>HTTP API 클라이언트 작업을 진행하였습니다.</li>
-            <li>적절한 폴더링에 대한 고민을 했습니다.</li>
-            <li>
-              컨텍스트와 훅스로 스토어를 디자인해 global state와 action을
-              사용하였습니다.
-            </li>
-            <li>
-              firebase에서 받아온 실시간 데이터를 지도에 나타내는 작업을
-              했습니다.
-            </li>
-            <li>에러 처리를 작업했습니다.</li>
-            <li>
-              라이브러리를 깊게 사용하기 위해 문서를 더 잘 읽는 방법에 대해
-              고민했습니다.
-            </li>
-          </ul>
-          <h4>기술</h4>
-          <ul>
-            <li>React Context & Hooks, React-Router, emotion</li>
-            <li>
-              사용한 라이브러리: react-hook-form, react-table, react-dropzone
-            </li>
-          </ul>
-
-          <h3>바로택배앱 어드민 사이트</h3>
-          <span>2020.07 - 현재</span>
-          <h4>설명</h4>
-          <ul>
-            <li>
-              배송신청 서비스인 바로택배앱 어드민 사이트 작업을 진행했습니다.
-              프론트엔드 부분을 혼자 맡아 작업하고 있습니다.
-            </li>
-          </ul>
-          <h4>역할</h4>
-          <ul>
-            <li>로그인을 위한 쿠키 설정에 대해 공부할 수 있었습니다.</li>
-            <li>CORS 에러를 해결한 경험이 있습니다.</li>
-            <li>
-              성능 최적화를 위해 React.memo와 useCallback훅을 적절하게
-              사용했습니다.
-            </li>
-            <li>받아오는 데이터양에 따라 로딩 스토어를 적용하였습니다.</li>
-            <li>
-              라디오, 체크박스, 날짜, 파일 등 다양한 input type을 이용한 조회
-              폼을 구현했습니다.
-            </li>
-            <li>
-              서버에서 받아온 데이터를 클라이언트에서 원하는 모양대로 변형하여
-              작업하였습니다.
-            </li>
-            <li>
-              타입스크립트를 도입하여 프로젝트를 진행하며 높아진 생산성을
-              경험했습니다.
-            </li>
-          </ul>
-          <h4>기술</h4>
-          <ul>
-            <li>Typescript, React Context & Hooks, emotion</li>
-            <li>
-              사용한 라이브러리: React-hook-form, react-table, react-dropzone,
-              ky
-            </li>
           </ul>
         </div>
 
