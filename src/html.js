@@ -5,7 +5,14 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168813339-1"></script>
+        <script
+          src="https://cdn.embedly.com/widgets/platform.js"
+          type="text/javascript"
+        />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-168813339-1"
+        ></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
