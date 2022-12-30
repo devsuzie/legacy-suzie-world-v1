@@ -19,7 +19,7 @@
     "contentful": "^7.6.0",
     "dotenv": "^8.0.0",
     "env-development": "^1.0.2",
-    "gatsby": "^2.6.0",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-feed": "^2.2.2",
     "gatsby-plugin-offline": "^2.1.1",
     "gatsby-plugin-react-helmet": "^3.0.12",
